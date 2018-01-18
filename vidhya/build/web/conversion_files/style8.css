@@ -1,0 +1,21 @@
+.b2t {
+background-color: midnightblue;
+font-weight: bold;
+color: white
+}
+
+.b3t {
+background-color: thistle
+}
+
+BODY {
+SCROLLBAR-FACE-COLOR: midnightblue;
+SCROLLBAR-BASE-COLOR: midnightblue;
+SCROLLBAR-SHADOW-COLOR: powderblue;
+SCROLLBAR-DARK-SHADOW-COLOR: powderblue;
+SCROLLBAR-HIGHLIGHT-COLOR: powderblue;
+SCROLLBAR-3D-LIGHT-COLOR: powderblue;
+SCROLLBAR-ARROW-COLOR: powderblue; 
+SCROLLBAR-TRACK-COLOR: thistle
+}
+

@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+body:hover
+{
+background-color:orange;
+}
+#main
+{
+border:2px solid black;
+border-radius:5px;
+margin:150px 500px;
+padding-left:80px;
+padding-top:10px;
+background-color:white;
+}
+#main:hover
+{
+background-color:yellow;
+}
+</style>
+<script>
+function min()
+{
+var a=document.f.t1.value;
+var b=document.f.t2.value;
+var c=document.f.t3.value;
+if(parseInt(a)<parseInt(b) && parseInt(a)<parseInt(c))
+{
+var x=document.getElementById("d1");
+alert("Minimum no is : "+a);
+}
+else
+if(parseInt(b)<parseInt(a) && parseInt(b)<parseInt(c))
+{
+ alert("Minimum no is : "+b);
+}
+else
+{
+ alert("Minimum no is : "+c);
+}
+}
+</script>
+ </head>
+<body bgcolor="blue">
+<div id="main">
+<form name="f" value="f" action="get">
+<b>Enter first no:- </b><input type="text" name="t1"  size="5" id="d1" ><br><br>
+<b>Enter second no:- </b><input type="text" name="t2" size="5" id="d2"><br><br>
+<b>Enter third no:- </b><input type="text" name="t3"  size="5" id="d3" ><br><br>
+<button onclick="min()"> Minimum Number.</button>
+<button type="reset">Reset</button>
+</div>
+<div id="d1"></div>
+</form>
+
+</body></html>
